@@ -5,10 +5,22 @@ title: "Demonstration of Computing Where-Provenance during Link Traversal-based 
 # <%= @item[:title] %>
 
 {:#authors}
-- <%= person 'John Doe', 'http://www.example.org/', 'http://www.example.org/#me' %>
+- <%= person 'Ruben Taelman', 'http://www.rubensworks.net/', 'http://www.rubensworks.net/#me' %>{:#idlab}
+- <%= person 'Katja Hose', 'https://homes.cs.aau.dk/~khose/About_me.html', '#' %>{:#dkw}
 
 {:#affiliations}
-- {:#myaffiliation} Awesome Inc.
+- {:#idlab} <sup>1</sup>IDLab,
+            Department of Electronics and Information Systems,
+            Ghent University – imec
+- {:#dkw} <sup>2</sup>Data, Knowledge, and Web Engineering,
+            Department of Computer Science
+            Aalborg University, Denmark
+
+<section class="context" markdown="block">
+## In reply to
+- [Call for Linked Research](https://linkedresearch.org/calls){:rel="as:inReplyTo"}
+- [ISWC 2022 call for posters &amp; demos papers](https://iswc2022.semanticweb.org/index.php/posters-and-demos/){:rel="as:inReplyTo"}
+</section>
 
 <%= section 'abstract' %>
 </header>
